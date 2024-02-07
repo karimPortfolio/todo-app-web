@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
 
     useEffect( () => {
         navigate('/reset-password', {replace:true});
-    },[])
+    },[navigate])
 
   return (
     <div>

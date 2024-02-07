@@ -22,7 +22,7 @@ export const Input: React.FC<InputProps> = ({
   return (
     <div>
         <input 
-        className='mt-1 block w-full px-3 py-2 h-[50px] bg-white border mt-3
+        className='block w-full px-3 py-2 h-[50px] bg-white border mt-3
         border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
         focus:outline-none focus:border-fuchsia-500 focus:ring-1 focus:ring-fuchsia-500'
         type={type} 
